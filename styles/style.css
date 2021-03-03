@@ -50,7 +50,9 @@ body {
   font-size: 40px;
   line-height: 40px;
 }
-
+.content__menu{
+    position: relative;
+}
 .menu__wrapper {
   display: flex;
   flex-direction: column;
@@ -66,7 +68,7 @@ body {
   margin-bottom: 31px;
 
   opacity: .3;
-  transition: all .3s;
+  transition: all .2s;
 }
 .menu__img {
   display: block;
@@ -85,7 +87,6 @@ body {
 .menu__item:first-child .menu__link{
   line-height: 40px;
 }
-
 .menu__item.active{
   width: 290px;
   height: 155px;
@@ -95,6 +96,14 @@ body {
   width: 274px;
   height: 146px;
   opacity: 0.6;
+}
+
+.bottom__bg{
+  position: absolute;
+  bottom: 26px;
+  left: 0;
+
+  opacity: 0.5;
 }
 
 /* Content end */
