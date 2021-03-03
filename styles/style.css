@@ -1,0 +1,100 @@
+/* Reset styles start */
+* {
+  box-sizing: border-box;
+}
+ul{
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+/* Reset styles end */
+
+/* Global styles start */
+body {
+  font-family: "Roboto";
+}
+.container {
+  max-width: 991px;
+  margin: 0 auto;
+}
+.content {
+  background: radial-gradient(56.98% 112.78% at 50% 105.26%, #fd6946 31.29%, #f74153 100%);
+}
+.content__inner {
+  padding: 200px 0 400px;
+}
+/* Global styles end */
+
+/* Content start */
+
+.subtitle,
+.title {
+  color: #fff;
+  text-align: center;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32.5px;
+}
+.title {
+  max-width: 230px;
+  margin: 7px auto 57px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.menu__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu__item {
+  width: 260px;
+  height: 140px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 31px;
+
+  opacity: .3;
+  transition: all .3s;
+}
+.menu__img {
+  display: block;
+}
+.menu__link {
+  padding: 14px 0;
+  width: 100%;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  background: linear-gradient(95.24deg, #FD6946 -88.23%, #F74153 122.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu__item:first-child .menu__link{
+  line-height: 40px;
+}
+
+.menu__item.active{
+  width: 290px;
+  height: 155px;
+  opacity: 1;
+}
+.menu__item.rel{
+  width: 274px;
+  height: 146px;
+  opacity: 0.6;
+}
+
+/* Content end */
