@@ -8,7 +8,7 @@ window.addEventListener('scroll', function() {
       if (elem.nextElementSibling !== null){
         elem.nextElementSibling.classList.add('rel')
       }
-      if (elem.previousElementSibling !== null) {
+      if (elem.previousElementSibling !== null && !elem.previousElementSibling.classList.contains('rel')) {
         elem.previousElementSibling.classList.add('rel')
       }
     } else {
